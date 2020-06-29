@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Classprops from "../props/Classprops.js";
 let Details = [
-  { id: 1, name: "name1", age: "21", role: "engineer" },
+  { id: 1, name: "name1", age: "21", role: "enginer" },
   { id: 2, name: "name2", age: "22", role: "Doctor" },
 ];
 export default class Form extends Component {
