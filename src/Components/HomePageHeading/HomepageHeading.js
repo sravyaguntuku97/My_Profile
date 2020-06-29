@@ -17,7 +17,7 @@ const HomepageHeading = ({ mobile }) => (
           fontSize: mobile ? '2em' : '4em',
           fontWeight: 'bold',
           marginBottom: '-0.3em',
-          marginTop: mobile ? '1.5em' : '2.5em',
+          marginTop: mobile ? '1.5em' : '3em',
         }}
       />
       <Header
@@ -34,6 +34,7 @@ const HomepageHeading = ({ mobile }) => (
         Get Started
         <Icon name='right arrow' />
       </Button> */}
+      
     </Container>
   )
   

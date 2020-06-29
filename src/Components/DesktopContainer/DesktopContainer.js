@@ -39,10 +39,10 @@ class DesktopContainer extends Component {
               inverted
               textAlign='center'
               style={{ minHeight: 700, padding: '1em 0em',
-              backgroundImage: `url(https://www.accoladesit.com/images/mainback10comp.jpg)`,
+              backgroundImage: `url(https://www.grweb.eu/grweb19/123b.jpg)`,
               // backgroundImage: `url(https://i.pinimg.com/originals/88/7a/fe/887afe1b320569750a2eac301292f8c3.jpg)`,
               backgroundSize:"cover",
-              backgroundBlendMode: 'hard-light'
+              // backgroundBlendMode: 'hard-light'
                }}
               vertical
               
