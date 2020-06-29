@@ -10,8 +10,8 @@ import {
 const HomepageHeading = ({ mobile }) => (
     <Container text >
       <Header
-        as='h1'
-        content='Sravya Guntuku'
+        as='h2'
+        content="Hi! I'm Sravya Guntuku"
         inverted
         style={{    
           fontSize: mobile ? '2em' : '4em',
@@ -21,11 +21,12 @@ const HomepageHeading = ({ mobile }) => (
         }}
       />
       <Header
-        as='h2'
-        content='--- Full Stack Developer ---'
+        as='h1'
+        content='FULL STACK WEB DEVELOPER'
+        // subheader='Creates modern and responsive Web Applications'
         inverted
         style={{
-          fontSize: mobile ? '1.5em' : '1.7em',
+          fontSize: mobile ? '1.5em' : '2em',
           fontWeight: 'bold',
           marginTop: mobile ? '0.5em' : '1.5em',
         }}
