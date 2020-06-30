@@ -12,7 +12,7 @@ import Profile from "../../assets/WhatsApp Image 2020-06-24 at 4.16.20 PM.jpeg"
 
 const HomepageHeading = ({ mobile }) => (
     <Container text >
-       <Image src='https://react.semantic-ui.com/images/wireframe/square-image.png' size='small' circular centered style={{marginTop: mobile ? '1.5em' : '8.5em',}}/>
+       <Image src='https://react.semantic-ui.com/images/wireframe/square-image.png' size='small' circular centered style={{marginTop: mobile ? '1.5em' : '8.5em'}}/>
       <Header
         as='h2'
         content="Hi! I'm Sravya Guntuku"

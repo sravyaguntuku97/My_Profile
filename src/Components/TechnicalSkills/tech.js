@@ -31,6 +31,7 @@ const TechSkills = [
     value: 70,
     color:"#2790bf"
   },
+  
   {
     skill: "MongoDB/Mongoose",
     value: 75,

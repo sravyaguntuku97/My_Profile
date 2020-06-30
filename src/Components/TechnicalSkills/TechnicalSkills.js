@@ -37,8 +37,7 @@ export default class TechnicalSkills extends Component {
               </Grid.Column>
               )
           })}
-          
-           
+            
           </Grid.Row>
         </Grid>
         <style jsx="true">
