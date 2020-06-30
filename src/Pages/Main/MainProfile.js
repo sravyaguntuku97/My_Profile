@@ -13,11 +13,12 @@ import ResponsiveContainer from "../../Components/ResponsiveContainer/Responsive
 import Career from "../../Components/Career/Career"
 import TechnicalSkills from "../../Components/TechnicalSkills/TechnicalSkills"
 import Footer from "../../Components/Footer/Footer"
-
+import TabExampleCustomMenuItem from "../../Components/Tab/Tab"
 const HomepageLayout = () => (
   <ResponsiveContainer>
    <Career/>
    <TechnicalSkills/>
+   <TabExampleCustomMenuItem/>
     {/* <Segment style={{ padding: '0em' }} vertical>
       <Grid celled='internally' columns='equal' stackable>
         <Grid.Row textAlign='center'>
