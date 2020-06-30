@@ -27,7 +27,7 @@ const HomepageLayout = () => (
    <Tab/>
   
 <Portifolio/>
-    <Segment style={{ padding: '8em 0em',color:"white" }} vertical>
+    <Segment style={{ padding: '8em 0em',marginTop:"-1rem",color:"white",backgroundColor:"#e5e8eacc" }} vertical>
       <Container text>
         <Header as='h3' style={{ fontSize: '2em' }}>
           Breaking The Grid, Grabs Your Attention
