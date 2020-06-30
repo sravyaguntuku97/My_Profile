@@ -14,3 +14,32 @@ code {
 .ui.secondary.inverted.pointing.menu {
   border-color: transparent;
 }
+
+.parallax {
+  /* The image used */
+  background-image:url(https://i.pinimg.com/originals/88/7a/fe/887afe1b320569750a2eac301292f8c3.jpg);
+background-blend-mode: overlay;
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+  fill: #3e98c7;
+  font-size: 20px;
+  dominant-baseline: middle;
+  text-anchor: middle;
+  font-weight: 900;
+}
+
+.ui.vertical.menu .active.item {
+  background: #6b515154;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}

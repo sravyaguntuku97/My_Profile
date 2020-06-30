@@ -7,7 +7,7 @@ import {
   Menu,
   Responsive,
   Segment,
-
+Icon,
   Visibility,
 } from 'semantic-ui-react'
 import HomepageHeading from '../../Components/HomePageHeading/HomepageHeading'
@@ -29,12 +29,14 @@ class DesktopContainer extends Component {
       const { fixed } = this.state
   
       return (
-        <Responsive getWidth={getWidth} minWidth={Responsive.onlyTablet.minWidth}>
+        <Responsive getWidth={getWidth} minWidth={Responsive.onlyTablet.minWidth}  className="parallax" >
           <Visibility
             once={false}
             onBottomPassed={this.showFixedMenu}
             onBottomPassedReverse={this.hideFixedMenu}
+            
           >
+             
             <Segment
               inverted
               textAlign='center'
@@ -47,28 +49,35 @@ class DesktopContainer extends Component {
               vertical
               
             >
+              
               <Menu
+              
                 fixed={fixed ? 'top' : null}
                 inverted={!fixed}
                 pointing={!fixed}
                 secondary={!fixed}
                 size='large'
               >
+                
                 <Container>
+                  
                   <Menu.Item as='a' active>
-                    Home
+                   SravyaGuntuku 
                   </Menu.Item>
-                  <Menu.Item as='a'>Work</Menu.Item>
+                  {/* <Menu.Item as='a'></Menu.Item> */}
                   {/* <Menu.Item as='a'>Company</Menu.Item>
-                  <Menu.Item as='a'>Careers</Menu.Item>
+                  <Menu.Item as='a'>Careers</Menu.Item> */}
                   <Menu.Item position='right'>
-                    <Button as='a' inverted={!fixed}>
+                <Icon name="phone" size="small"/>  9885112928 
+                    {/* <Button as='a' inverted={!fixed}>
                       Log in
                     </Button>
                     <Button as='a' inverted={!fixed} primary={fixed} style={{ marginLeft: '0.5em' }}>
                       Sign Up
-                    </Button>
-                  </Menu.Item> */}
+                    </Button> */}
+                  </Menu.Item>
+                  <Menu.Item  style={{ marginLeft: '0.5em' }}>
+                    <Icon name="mail" size="small"/>sravyaguntuku97@gmail.com</Menu.Item>
                 </Container>
               </Menu>
               <HomepageHeading />

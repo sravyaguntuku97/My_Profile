@@ -14,34 +14,20 @@ import Career from "../../Components/Career/Career"
 import TechnicalSkills from "../../Components/TechnicalSkills/TechnicalSkills"
 import Footer from "../../Components/Footer/Footer"
 import Tab from '../../Components/Tab/index'
+import Portifolio from  "../../Components/Portifolio/Portifolio"
+// import HomepageHeading from '../../Components/HomePageHeading/HomepageHeading'
 const HomepageLayout = () => (
-  <ResponsiveContainer>
+  <React.Fragment>
+  {/* <div className="parallax"> <HomepageHeading/>  </div> */}
+  <ResponsiveContainer> 
+  
+
    <Career/>
    <TechnicalSkills/>
    <Tab/>
-    {/* <Segment style={{ padding: '0em' }} vertical>
-      <Grid celled='internally' columns='equal' stackable>
-        <Grid.Row textAlign='center'>
-          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-            <Header as='h3' style={{ fontSize: '2em' }}>
-              "What a Company"
-            </Header>
-            <p style={{ fontSize: '1.33em' }}>That is what they all say about us</p>
-          </Grid.Column>
-          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-            <Header as='h3' style={{ fontSize: '2em' }}>
-              "I shouldn't have gone with their competitor."
-            </Header>
-            <p style={{ fontSize: '1.33em' }}>
-              <Image avatar src='/images/avatar/large/nan.jpg' />
-              <b>Nan</b> Chief Fun Officer Acme Toys
-            </p>
-          </Grid.Column>
-        </Grid.Row>
-      </Grid>
-    </Segment> */}
-
-    <Segment style={{ padding: '8em 0em' }} vertical>
+  
+<Portifolio/>
+    <Segment style={{ padding: '8em 0em',color:"white" }} vertical>
       <Container text>
         <Header as='h3' style={{ fontSize: '2em' }}>
           Breaking The Grid, Grabs Your Attention
@@ -80,6 +66,8 @@ const HomepageLayout = () => (
 <Footer/>
     
   </ResponsiveContainer>
+
+  </React.Fragment>
 )
 
 export default HomepageLayout

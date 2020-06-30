@@ -37,7 +37,7 @@ const Loader = (props) => (
             
               text={`${roundedValue}%`}
               styles={buildStyles({
-                  
+                trailColor: "#484040c2",
                 textColor: props.textColor,
                 pathColor: props.pathColor,
                 // trailColor: "gold"

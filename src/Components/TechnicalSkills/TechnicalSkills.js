@@ -14,11 +14,11 @@ import TechSkills from "./tech"
 export default class TechnicalSkills extends Component {
   render() {
     return (
-      <Segment style={{ backgroundColor: "#eeeeee69", marginTop: "0rem" }}>
+      <Segment style={{ backgroundColor: "#400f06a6", marginTop: "0rem" }}>
         <Grid container style={{ margin: "2rem 0rem" }}>
           <Grid.Row centered>
             <Header as="h3" style={{ fontSize: "2em" }}>
-              <div> MY TECHNICAL SKILLS</div>
+              <div style={{color:"white"}}> <b>MY TECHNICAL SKILLS</b></div>
             </Header>
           </Grid.Row>
 
@@ -33,7 +33,7 @@ export default class TechnicalSkills extends Component {
                 computer={5}
               >
                 <Loader textColor={el.color} pathColor={el.color} roundedValue={el.value} />
-              <div><b>{el.skill}</b></div>
+              <div style={{color:"white"}}><b>{el.skill}</b></div>
               </Grid.Column>
               )
           })}

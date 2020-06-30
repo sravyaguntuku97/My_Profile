@@ -5,37 +5,37 @@ const TechSkills = [
   {
     skill: "HTML/CSS",
     value: 90,
-    color:"#2790bf"
+    color:"white"
   },
 
   {
     skill: "JavaScript/Jquery",
     value: 70,
-    color:"#2790bf"
+    color:"white"
   },
 
   {
     skill: "ReactJS",
     value: 80,
-    color:"#2790bf"
+    color:"white"
   },
 
   {
     skill: "PHP/MySQL",
     value: 65,
-    color:"#2790bf"
+    color:"white"
   },
 
   {
     skill: "NodeJS/ExpressJs",
     value: 70,
-    color:"#2790bf"
+    color:"white"
   },
   
   {
     skill: "MongoDB/Mongoose",
     value: 75,
-    color:"#2790bf"
+    color:"white"
   },
 
 
