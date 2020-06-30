@@ -14,7 +14,7 @@ import TechSkills from "./tech"
 export default class TechnicalSkills extends Component {
   render() {
     return (
-      <Segment style={{ backgroundColor: "#eeeeee", marginTop: "-1rem" }}>
+      <Segment style={{ backgroundColor: "#eeeeee69", marginTop: "0rem" }}>
         <Grid container style={{ margin: "2rem 0rem" }}>
           <Grid.Row centered>
             <Header as="h3" style={{ fontSize: "2em" }}>
