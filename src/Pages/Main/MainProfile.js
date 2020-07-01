@@ -15,37 +15,38 @@ import TechnicalSkills from "../../Components/TechnicalSkills/TechnicalSkills"
 import Footer from "../../Components/Footer/Footer"
 import Tab from '../../Components/Tab/index'
 import Portifolio from  "../../Components/Portifolio/Portifolio"
+import Responsive from "../../Components/Slick/Slick"
 // import HomepageHeading from '../../Components/HomePageHeading/HomepageHeading'
 const HomepageLayout = () => (
   <React.Fragment>
   {/* <div className="parallax"> <HomepageHeading/>  </div> */}
   <ResponsiveContainer> 
-  
-
    <Career/>
    <TechnicalSkills/>
    <Tab/>
   
-<Portifolio/>
-    <Segment style={{ padding: '8em 0em',marginTop:"-1rem",color:"white",backgroundColor:"#e5e8eacc" }} vertical>
+{/* <Portifolio/> */}
+    <Segment style={{ padding: '8em 0em',marginTop:"-1rem",color:"white",backgroundColor:"#6b665bc2" }} vertical>
       <Container text>
-        <Header as='h3' style={{ fontSize: '2em' }}>
-          Breaking The Grid, Grabs Your Attention
+        <Header as='h3' style={{ fontSize: '2em', margin:"-2rem 0rem 2rem 1.8rem", }}>
+         <b style={{color:"white"}}>MY PORTFOLIO</b>
         </Header>
-        <p style={{ fontSize: '1.33em' }}>
-          Instead of focusing on content creation and hard work, we have learned how to master the
-          art of doing nothing by providing massive amounts of whitespace and generic content that
-          can seem massive, monolithic and worth your attention.
-        </p>
-        <Button as='a' size='large'>
-          Read More
-        </Button>
-
         <Divider
           as='h4'
           className='header'
           horizontal
-          style={{ margin: '3em 0em', textTransform: 'uppercase' }}
+          style={{ margin: '4em 0em', textTransform: 'uppercase' }}
+        >
+          <a style={{color:"white"}}>Click on the Card to view responsibilities</a>
+        </Divider>
+       <Responsive/>
+   
+
+        {/* <Divider
+          as='h4'
+          className='header'
+          horizontal
+          style={{ margin: '4em 0em', textTransform: 'uppercase' }}
         >
           <a href='#'>Case Studies</a>
         </Divider>
@@ -60,7 +61,7 @@ const HomepageLayout = () => (
         </p>
         <Button as='a' size='large'>
           I'm Still Quite Interested
-        </Button>
+        </Button> */}
       </Container>
     </Segment>
 <Footer/>

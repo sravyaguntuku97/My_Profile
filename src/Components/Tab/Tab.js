@@ -43,7 +43,7 @@ const TabExampleCustomMenuItem = () =>
 <Grid>
 <Grid.Row  columns={1} centered>
         <Grid.Column  mobile={16} tablet={13} computer={12}  centered>
-    <Tab  menu={{ fluid: true, vertical: true }} panes={panes}  />
+    <Tab  menu={{  pointing: true, fluid: true, vertical: true }} panes={panes}  />
     </Grid.Column>
     </Grid.Row>
 </Grid>
